@@ -187,16 +187,16 @@ server.starttls()
 server.login('youremail@gmail.com', 'your-password')
 server.sendmail('youremail@gmail.com', to, content)
 server.close()
- elif 'email to Aditya' in query:
+ elif 'email to Jiya' in query:
             try:
                 speak("What should I say?")
                 content = takeCommand()
-                to = "AdityayourEmail@gmail.com"    
+                to = "JiyayourEmail@gmail.com"    
                 sendEmail(to, content)
                 speak("Email has been sent!")
             except Exception as e:
                 print(e)
-                speak("Sorry my friend ADITYA. I am not able to send this email")    
+                speak("Sorry my friend JIYA. I am not able to send this email")    
 
 
         
